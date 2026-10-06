@@ -35,11 +35,11 @@ nav a {
 
 nav li.active a {
     background-color: #B5AF99;
-    color: #3D2314;
+    color: #white;
 }
 
 nav li a:hover {
-    color: white;
+    color: #A38E70;
 }
 
 /* main content stuff here */
