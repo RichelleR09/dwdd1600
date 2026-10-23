@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Richelle Van Komen">
+    <meta name="description" content="Learn about my interior design business">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="interiordesign.css">
+    <title>About Us</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Richelle Lis Interiors</span>
+    </header>
+
+    <!-- start the page navigation -->
+
+    <nav>
+        <ul>
+           <li><a href="index.html" >About Us</a>
+            <li><a href="services.html" >Services</a>
+                <li><a href="portfolio.html" >Portfolio</a>
+                    <li class="active"><a href="design.html" >Request a Design</a>
+        </ul>
+            
+
+
+
+    </nav>
+
+    <!-- start the main content -->
+
+    <main>
+        <h1>Request a Design</h1>
+          <form method="get" class="myForm" action="thanks.html"> 
+
+
+ </fieldset>
+        <legend>Customer Information</legend>
+            
+
+<label>First Name* <input type="text" name="fname" required> </label>
+
+<label>Last Name* <input type="text" name="lname" required> </label>
+
+<label>Cell Phone* <input type="tel" name="phone" required placeholder="987-555-1234"> </label>
+
+<label>Email* <input type="email" name="email" required placeholder="you@example.com"> </label>
+
+ </fieldset>
+
+
+ <fieldset> 
+ <legend>When Would You Like Your Design Completed?</legend>
+<label> <input type="radio" name="method" value="one week">One Week</label>
+<label> <input type="radio" name="method" value="one month">One Month</label>
+<label> <input type="radio" name="method" value="one year">One Year</label>
+
+ </fieldset>
+
+<fieldset> 
+
+    <legend>Which Room Would You Like Designed?</legend>
+
+    <label><input type="checkbox" name="living room" value="chosen">Living Room</label>
+     <label><input type="checkbox" name="kitchen" value="chosen">Kitchen</label>
+      <label><input type="checkbox" name="bedroom" value="chosen">Bedroom</label>
+       <label><input type="checkbox" name="bathroom" value="chosen">Bathroom</label>
+
+       <label>Budget Range
+       <select name="budget" required>
+        <option value="none">Please Select</option>
+        <option value="low">Under $5,000</option>
+        <option value="medium">$5,000 - $10,000</option>
+        <option value="high">$10,000 - $25,000</option>
+        <option value="very high">Over $25,000</option>
+    </select>
+    </label>
+    
+</fieldset>
+
+<fieldset>
+<label>Comments
+<textarea name="comments">Please add any other important information that would be helpful to know about your project</textarea>
+
+
+</label>
+
+
+</fieldset>
+
+
+
+<input type="submit" value="Submit Design Request">
+         </form>
+
+    </main>
+
+    <!-- start the page footer -->
+
+    <footer>
+        <footer style="clear: both;">
+        <p>&copy; 2026 &bull;Richelle Van Komen &bull;Web Essentials</p>
+    </footer>
+</body>
+
+</html>
